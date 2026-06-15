@@ -17,7 +17,62 @@ This project is designed to demonstrate SQL skills and techniques typically used
 
 ## Project Structure
 
-### 1. Database Setup
+## 1.Dataset Information
+
+The dataset contains retail transaction records including customer details, product categories, quantities sold, and total sales values.
+
+### Key Columns
+
+| Column Name | Description |
+|---|---|
+| transaction_id | Unique transaction identifier |
+| sale_date | Date of transaction |
+| sale_time | Time of transaction |
+| customer_id | Unique customer identifier |
+| gender | Customer gender |
+| age | Customer age |
+| category | Product category |
+| quantity | Quantity purchased |
+| price_per_unit | Price of each unit |
+| cogs | Cost of Goods Sold |
+| total_sale | Total sales amount |
+
+---
+
+## 2. Tools & Technologies Used
+
+- PostgreSQL
+- SQL
+- Power BI
+- DAX
+- Microsoft Excel
+- CSV Dataset
+- Git & GitHub
+
+---
+
+## 3. Project Architecture
+
+```text
+Retail Sales Dataset (CSV)
+            |
+            v
+      PostgreSQL Database
+            |
+            v
+       SQL Analysis
+            |
+            v
+      Power BI Dashboard
+            |
+            v
+ Business Insights & Reports
+```
+
+---
+
+
+### 4. Database Setup
 
 - **Database Creation**: The project starts by creating a database named `sql_project_p1`.
 - **Table Creation**: A table named `retail_sales` is created to store the sales data. The table structure includes columns for transaction ID, sale date, sale time, customer ID, gender, age, product category, quantity sold, price per unit, cost of goods sold (COGS), and total sale amount.
@@ -41,7 +96,7 @@ CREATE TABLE retail_sales
 );
 ```
 
-### 2. Data Exploration & Cleaning
+### 5. Data Exploration & Cleaning
 
 - **Record Count**: Determine the total number of records in the dataset.
 - **Customer Count**: Find out how many unique customers are in the dataset.
@@ -66,7 +121,7 @@ WHERE
     quantity IS NULL OR price_per_unit IS NULL OR cogs IS NULL;
 ```
 
-### 3. Data Analysis & Findings
+### 6. Data Analysis & Findings
 
 The following SQL queries were developed to answer specific business questions:
 
@@ -248,6 +303,28 @@ SELECT
 FROM hourly_sale
 GROUP BY SHIFT
 ```
+## 7. Power BI Dashboard Features
+
+The dashboard includes:
+
+- KPI Cards
+- Monthly Sales Trend Analysis
+- Category-wise Revenue Analysis
+- Customer Analysis
+- Revenue Distribution
+- Slicers and Filters
+- Dynamic Visualizations
+- Interactive Reports
+
+---
+## 8. Dashboard Preview
+
+### Sales Dashboard
+### Customer Analysis Dashboard
+### Profit Analysis Dashboard
+
+---
+
 
 ## Findings
 
@@ -265,5 +342,30 @@ GROUP BY SHIFT
 ## Conclusion
 
 This project serves as a comprehensive introduction to SQL for data analysts, covering database setup, data cleaning, exploratory data analysis, and business-driven SQL queries. The findings from this project can help drive business decisions by understanding sales patterns, customer behavior, and product performance.
+
+---
+## Author
+
+**Sankara Gopi**
+Final Year Engineering Student | Aspiring Data Analyst
+
+### Skills
+
+- SQL
+- PostgreSQL
+- Power BI
+- DAX
+- Excel
+- Data Visualization
+- Data Analysis
+
+---
+## Connect With Me
+
+- LinkedIn: linkedin.com/in/sankaragopi-b-9b45312b2
+- GitHub: Add your GitHub Profile
+
+---
+
 
 
