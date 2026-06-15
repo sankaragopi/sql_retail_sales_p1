@@ -346,7 +346,8 @@ This project serves as a comprehensive introduction to SQL for data analysts, co
 ---
 ## Author
 
-**Sankara Gopi**
+**SANKARAGOPI B**
+
 Final Year Engineering Student | Aspiring Data Analyst
 
 ### Skills
@@ -363,7 +364,7 @@ Final Year Engineering Student | Aspiring Data Analyst
 ## Connect With Me
 
 - LinkedIn: linkedin.com/in/sankaragopi-b-9b45312b2
-- GitHub: Add your GitHub Profile
+- GitHub: (https://github.com/sankaragopi)
 
 ---
 
