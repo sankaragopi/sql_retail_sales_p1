@@ -18,7 +18,7 @@ CREATE TABLE retail_sales(
 	total_sale FLOAT
 );
 
---- Dataset
+--- Import the Dataset:
 The project uses the following CSV files:
 
 - Retail Sales Analysis_utf .csv
