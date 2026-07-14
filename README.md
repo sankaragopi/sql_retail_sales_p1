@@ -364,7 +364,6 @@ Final Year Engineering Student | Aspiring Data Analyst
 ## Connect With Me
 
 - LinkedIn: (linkedin.com/in/sankaragopi-b-9b45312b2)
-- GitHub: (https://github.com/sankaragopi)
 
 ---
 
